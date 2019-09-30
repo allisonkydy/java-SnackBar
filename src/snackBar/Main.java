@@ -53,6 +53,8 @@ public class Main
     System.out.println("Quantity of snack 2: " + snack2.getQuantity());
 
     // 6 - Add 12 more items to snack 3. Print quantity of snack 3.
+    snack3.addQuantity(12);
+    System.out.println("Quantity of snack 3: " + snack3.getQuantity());
 
     // 7 - Customer 2 buys 3 of snack 3. Print Customer 2 Cash on hand. Print quantity of snack 3.
   }

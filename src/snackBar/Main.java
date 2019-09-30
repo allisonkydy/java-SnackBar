@@ -9,9 +9,9 @@ public class Main
     Customer c2 = new Customer("Bob", 33.14);
 
     // instantiate vending machines
-    VendingMachine food = new VendingMachine("Food");
-    VendingMachine drink = new VendingMachine("Drink");
-    VendingMachine office = new VendingMachine("Office");
+    VendingMachine vm1 = new VendingMachine("Food");
+    VendingMachine vm2 = new VendingMachine("Drink");
+    VendingMachine vm3 = new VendingMachine("Office");
 
     // instantiate snacks
     // in Food
@@ -61,5 +61,13 @@ public class Main
     snack3.buySnack(3);
     System.out.println("Customer 2 cash on hand: " + c2.getCash());
     System.out.println("Quantity of snack 3: " + snack3.getQuantity());
+
+    // stretch - display each snack with name, vending machine name, quantity, and total cost of all quantities of this snack on hand
+    System.out.println(snack1.toString());
+    System.out.println(snack2.toString());
+    System.out.println(snack3.toString());
+    System.out.println(snack4.toString());
+    System.out.println(snack5.toString());
+
   }
 }

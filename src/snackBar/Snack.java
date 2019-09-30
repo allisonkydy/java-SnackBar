@@ -3,7 +3,7 @@ package snackBar;
 public class Snack
 {
   // fields
-  private static int maxId;
+  private static int maxId = 0;
   private int id;
   private String name;
   private int quantity;

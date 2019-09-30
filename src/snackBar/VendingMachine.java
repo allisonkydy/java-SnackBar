@@ -16,17 +16,17 @@ public class VendingMachine
   }
 
   // methods
-  public void getId()
+  public int getId()
   {
     return id;
   }
 
-  public void getName()
+  public String getName()
   {
     return name;
   }
 
-  public setName(String name)
+  public void setName(String name)
   {
     this.name = name;
   }

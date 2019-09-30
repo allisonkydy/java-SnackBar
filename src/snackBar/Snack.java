@@ -71,7 +71,7 @@ public class Snack
 
   public void buySnack(int numToBuy)
   {
-    quantity -+ numToBuy;
+    quantity -= numToBuy;
   }
 
   public double getTotalCost(int quantity)

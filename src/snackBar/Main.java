@@ -37,6 +37,10 @@ public class Main
     System.out.println("Quantity of snack 3: " + snack3.getQuantity());
 
     // 3 - Customer 2 buys 2 of snack 4. Print Customer 2 Cash on Hand. Print quantity of snack 4.
+    c2.buySnack(snack4.getTotalCost(2));
+    snack4.buySnack(2);
+    System.out.println("Customer 2 cash on hand: " + c2.getCash());
+    System.out.println("Quantity of snack 4: " + snack4.getQuantity());
 
     // 4 - Customer 1 finds $10. Print Customer 1 Cash on Hand.
 

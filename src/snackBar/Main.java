@@ -43,6 +43,8 @@ public class Main
     System.out.println("Quantity of snack 4: " + snack4.getQuantity());
 
     // 4 - Customer 1 finds $10. Print Customer 1 Cash on Hand.
+    c1.addCash(10.00);
+    System.out.println("Customer 1 cash on hand: " + c1.getCash());
 
     // 5 - Customer 1 buys 1 of snack 2. Print Customer 1 Cash on Hand. Print quantity of snack 2.
 

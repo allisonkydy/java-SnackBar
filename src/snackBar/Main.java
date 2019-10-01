@@ -25,8 +25,8 @@ public class Main
 
     // processing
     // 1 - Customer 1 buys 3 of snack 4. Print Customer 1 Cash on hand. Print quantity of snack 4.
-    c1.buySnack(snack4.getTotalCost(4));
-    snack4.buySnack(4);
+    c1.buySnack(snack4.getTotalCost(3));
+    snack4.buySnack(3);
     System.out.println("Customer 1 cash on hand: " + c1.getCash());
     System.out.println("Quantity of snack 4: " + snack4.getQuantity());
 

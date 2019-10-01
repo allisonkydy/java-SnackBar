@@ -9,9 +9,9 @@ public class Main
     Customer c2 = new Customer("Bob", 33.14);
 
     // instantiate vending machines
-    VendingMachine vm1 = new VendingMachine("Food");
-    VendingMachine vm2 = new VendingMachine("Drink");
-    VendingMachine vm3 = new VendingMachine("Office");
+    VendingMachine food = new VendingMachine("Food");
+    VendingMachine drink = new VendingMachine("Drink");
+    VendingMachine office = new VendingMachine("Office");
 
     // instantiate snacks
     // in Food
@@ -68,6 +68,5 @@ public class Main
     System.out.println(snack3.toString());
     System.out.println(snack4.toString());
     System.out.println(snack5.toString());
-
   }
 }
